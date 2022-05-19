@@ -1,6 +1,10 @@
 # Visual-Odometry-using-RGB-D-Images
 In this project, we aim to accurately estimate the pose of a moving camera at every time step and subsequently its trajectory, from RGB-D images only.
 
+## Members
+1. Shreyas Ramesh
+2. Sharon Richu Shaji
+3. Manasa Sathyan
 ## Overview
 In this project, we implement a visual odometry and mapping system using RGB-D images inspired by the paper on *"Fast visual odometry and mapping from RGB-D data"*. We estimate the 6-DoF trajectory of a moving camera by aligning sparse features obtained from RGB-D images against a persistent model set consisting previous features. A Kalman Filter is used to dynamically update the model set by incorporating new features obtained from each RGB-D frame. A Gaussian mixture model is implemented to handle the uncertainty in the sparse RGB-D image features. The results of this project show that our implementation estimates the pose of the camera fairly well and is also able to close small-scale loops in indoor environments.
 
